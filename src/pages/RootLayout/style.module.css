@@ -1,0 +1,14 @@
+#fullRoute {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+#fullRoute main {
+    display: flex;
+    flex: 1 0 auto;
+    z-index: 5;
+}

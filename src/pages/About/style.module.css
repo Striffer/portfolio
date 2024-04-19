@@ -1,0 +1,56 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    width: 20%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    background-color: rgba(200, 200, 200, .3);
+    border-radius: 20px;
+}
+
+.text h2,
+.text h4,
+.text p,
+.citation p {
+    margin: 0;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.text h2 {
+    font-size: 28px;
+    color: #4EE1A0;
+}
+
+.text p {
+    text-indent: 50px;
+}
+
+.text span {
+    color: #4EE1A0;
+}
+
+.about img {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.text ul {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.text h3 {
+    margin: 0;
+    color: #4EE1A0;
+}

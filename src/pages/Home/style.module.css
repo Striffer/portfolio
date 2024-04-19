@@ -1,0 +1,25 @@
+.home {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0;
+}
+
+.text h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.text h2 {
+    margin: 0;
+    font-size: 68px;
+}
