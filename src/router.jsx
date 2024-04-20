@@ -7,13 +7,13 @@ import Skills from './pages/Skills'
 
 const router = createBrowserRouter ([
     {
-        path: "/",
+        path: "/portifolio",
         element: <RootLayout />,
         children: [
             {index: true, element: <Home />},
-            {path: "/about", element: <About />},
-            {path: "/projects", element: <Projects />},
-            {path: "/skills", element: <Skills />}
+            {path: "/portifolio/about", element: <About />},
+            {path: "/portifolio/projects", element: <Projects />},
+            {path: "/portifolio/skills", element: <Skills />}
         ]
     }
 ])
