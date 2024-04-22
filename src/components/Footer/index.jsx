@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <>
             <footer className={style.footer}>
-                <p>Copyright &copy; 2018 <span>Pedro</span></p>
+                <p>Copyright &copy; 2024 <span>Pedro</span></p>
 
                 <div className={style.media}>
                     <div className={style.mediaContainer}>
