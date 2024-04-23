@@ -37,7 +37,7 @@ body {
   overflow-x: hidden;
 }
 
-/* body::after {
+body::after {
   content: '';
   width: inherit;
   height: inherit;
@@ -45,7 +45,7 @@ body {
   inset: 0;
   background: linear-gradient(109deg, rgba(10, 12, 16, 0.7) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.7) 85%);
   inset: 0;
-} */
+}
 
 h1 {
   font-size: 3.2em;
@@ -73,7 +73,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    color: #213547;
+    color: #d9d9d9;
     background-color: #ffffff;
   }
   a:hover {
