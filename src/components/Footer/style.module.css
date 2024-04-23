@@ -6,7 +6,7 @@
     border-top: 1px solid #D9D9D9;
     position: relative;
     background-color: #151515;
-    z-index: 5;
+    z-index: 10;
 }
 
 .footer p {
