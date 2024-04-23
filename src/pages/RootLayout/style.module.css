@@ -10,5 +10,5 @@
 #fullRoute main {
     display: flex;
     flex: 1 0 auto;
-    z-index: 15;
+    z-index: 5;
 }
