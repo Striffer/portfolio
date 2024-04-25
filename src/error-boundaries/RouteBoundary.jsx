@@ -6,7 +6,9 @@ export default function RouteBoundary() {
 
     if (isRouteErrorResponse(error)) {
         return (
-          <Home />  
+          <>
+            <h2>Error</h2>
+          </>  
         )
     }
 }
