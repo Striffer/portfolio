@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import Skills from './pages/Skills'
+import RouteBoundary from './error-boundaries/RouteBoundary'
 
 const router = createBrowserRouter ([
     {
@@ -11,9 +12,9 @@ const router = createBrowserRouter ([
         element: <RootLayout />,
         children: [
             {index: true, element: <Home />},
-            {path: "/portifolio/about", element: <About />},
-            {path: "/portifolio/projects", element: <Projects />},
-            {path: "/portifolio/skills", element: <Skills />}
+            {path: "/portifolio/about", element: <About />, errorElement: <RouteBoundary />},
+            {path: "/portifolio/projects", element: <Projects />, errorElement: <RouteBoundary />},
+            {path: "/portifolio/skills", element: <Skills />, errorElement: <RouteBoundary />}
         ]
     }
 ])

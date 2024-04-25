@@ -6,7 +6,7 @@ export default function About() {
 
             <div className={style.text}>
                 <h2>Olá,</h2><br/>
-                <p>sou Pedro Lima, desenvolvedor Front-end e entusianta no Back-end. Atualmente trabalho na Universidade Estadual de Minas Gerais (UEMG) como Secretário Acadêmico do curso de Administração.</p><br/>
+                <p>sou Pedro Lima, desenvolvedor Front-end e entusiasta no Back-end. Atualmente trabalho na Universidade Estadual de Minas Gerais (UEMG) como Secretário Acadêmico do curso de Administração.</p><br/>
                 <p>Meu entusiasmo na área da programação veio quando tive contato com a linguagem Pascal na disciplina Linguagens Técnicas de Programação do curso de Engenharia Mecânica da UniRedentor. Desde então a programação virou um objetivo em minha vida. Em virtude disso, comecei a usar programação para automatizar rotinas de trabalho, criar aplicações web e solucionar problemas.</p>
             </div>
 
