@@ -4,7 +4,8 @@
     right: -50%;
     height: 100%;
     padding: 0 20px 0 5px;    
-    background-color: rgba(200, 200, 200, .5); 
+    background-color:  rgba(10, 12, 16, .9);
+    border: 1px solid #d9d9d9; 
     border-radius: 20px 0 0 0;   
     z-index: 15;
     transition: .3s;

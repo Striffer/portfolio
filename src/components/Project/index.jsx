@@ -18,9 +18,9 @@ export default function Project({ src, title, comment, tecnologies, repository, 
 
 
                 <div className={style.pages}>
-                    <a href="https://github.com/Striffer/portifolio" target="_blank"><TbWorldWww /></a>
+                    <a href={url} target="_blank"><TbWorldWww /></a>
 
-                    <a href="https://striffer.github.io/portifolio/" target="_blank"><FaGithub /></a>
+                    <a href={repository} target="_blank"><FaGithub /></a>
                 </div>
             </div>
         </li>
