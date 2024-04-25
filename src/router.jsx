@@ -10,6 +10,7 @@ const router = createBrowserRouter ([
     {
         path: "/portifolio",
         element: <RootLayout />,
+        errorElement: <RouteBoundary />,
         children: [
             {index: true, element: <Home />},
             {path: "/portifolio/about", element: <About />, errorElement: <RouteBoundary />},
