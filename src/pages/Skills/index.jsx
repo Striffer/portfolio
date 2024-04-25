@@ -42,7 +42,6 @@ export default function Skills() {
                     />
                 </ul>
             </div>
-            <hr />
 
             <div className={style.unknowedSkills}>
                 <h2>Habilidades que estou desenvolvendo:</h2>
