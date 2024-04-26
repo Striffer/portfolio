@@ -17,15 +17,20 @@
 }
 
 .unknowedSkills {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .skills ul {
+    height: 200px;
     display: flex;
     justify-content: start;
+    align-items: center;
     flex-wrap: wrap;
+    margin: 0;
     padding: 0;
     column-gap: 10px;
+    background-color: rgba(200, 200, 200, .6);
+    border-radius: 20px;
 }
 
 @media (max-width: 877px) {

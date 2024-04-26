@@ -44,7 +44,7 @@ export default function Skills() {
             </div>
 
             <div className={style.unknowedSkills}>
-                <h2>Habilidades que estou desenvolvendo:</h2>
+                <h2>Habilidades que irei desenvolver:</h2>
 
                 <ul>
                     <SkillsLi 
