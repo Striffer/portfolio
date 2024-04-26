@@ -11,7 +11,12 @@ export default function Footer() {
 
                 <div className={style.media}>
                     <div className={style.mediaContainer}>
-                        <MdOutlineEmail />
+                        <a 
+                            href="mailto:striffer.pedro@gmail.com"
+                            target="_blank"
+                        >
+                            <MdOutlineEmail />                        
+                        </a>
                     </div>
 
                     <div className={style.mediaContainer}>
