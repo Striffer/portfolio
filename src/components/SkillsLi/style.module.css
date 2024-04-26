@@ -20,14 +20,9 @@
 
 @media (max-width: 344px) {
     .skillsLi {
-        width: 100%;
+        align-items: center;
     }
-}
-
-@media (max-width: 344px) {
-    .skillsLi {
-        width: 100%;
-        flex-direction: row;
-        column-gap: 35px;
+    .skillsLi img {
+        width: 90px;
     }
 }

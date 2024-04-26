@@ -21,7 +21,7 @@
 }
 
 .skills ul {
-    height: 200px;
+    min-height: 200px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -36,6 +36,7 @@
 @media (max-width: 877px) {
     .knowedSkills ul {
         justify-content: start;
+        padding-top: 10px;
     }
 
     .unknowedSkills {
@@ -52,6 +53,12 @@
 @media (max-width: 375px) {
     .skills h2 {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 344px) {
+    .skills ul {
+        justify-content: center;
     }
 }
 
