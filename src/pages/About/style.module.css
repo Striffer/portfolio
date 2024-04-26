@@ -1,108 +1,74 @@
 .about {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    padding: 20px 35px;
+    overflow-x: hidden;
+}
+
+.imgContainer {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
     row-gap: 10px;
-    column-gap: 20px;
 }
 
 .text {
-    width: 20%;
-    min-width: 400px;
-    height: max-content;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 0 20px 30px 20px;
-    padding: 15px 25px;
+    padding: 5px 20px 15px 20px;
     background-color: rgba(200, 200, 200, .6);
     border-radius: 20px;
 }
 
 .text h2,
-.text h4,
-.text p,
-.citation p {
+.text h3,
+.text p {
     margin: 0;
-    text-align: justify;
-    line-height: 1.5;
+    color: #d9d9d9;
 }
 
 .text h2 {
-    font-size: 34px;
     color: #4EE1A0;
-}
-
-.text ul {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
+    font-size: 24px;
 }
 
 .text h3 {
-    margin: 0;
-    font-size: 26px;
     color: #4EE1A0;
+    font-size: 22px;
 }
 
 .text p {
-    font-size: 20px;
-    text-indent: 50px;
-}
-
-.text h4 {
-    font-size: 20px;
-}
-
-.text span {
-    color: #4EE1A0;
-}
-
-.about img {
-    width: 400px;
-    height: auto;
-    border-radius: 50%;
+    color: #d9d9d9;
+    font-size: 18px;
+    text-indent: 1.5rem;
+    text-align: justify;
 }
 
 @media (max-width: 2000px) {
     .text h2 {
-        font-size: 22px;
-    }
-
-    .text h3 {
-        font-size: 16px;
-    }
-
-    .text p,
-    .text h4 {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 570px) {
-    .text {
-        min-width: 300px;
-    }
-}
-
-@media (max-width: 375px) {
-    .text {
-        min-width: 200px;
-    }
-
-    .text h2 {
         font-size: 20px;
     }
-
+    
     .text h3 {
+        font-size: 18px;
+    }
+    
+    .text p {
         font-size: 14px;
     }
+}
 
-    .text p, 
-    .text h4{
-        font-size: 12px;
+@media (max-width: 1440px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .textContainer {
+        width: 90%;
     }
 }
