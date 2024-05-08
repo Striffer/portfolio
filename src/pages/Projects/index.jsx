@@ -1,10 +1,11 @@
 import style from "./style.module.css"
 import Project from "../../components/Project"
 import portfolio from "./assets/portfolio.gif"
+import lawyer from "./assets/lawyer.gif"
 import hogwarts from "./assets/hogwarts.gif"
 import hash from "./assets/hash.gif"
 import bleach from "./assets/bleach.gif"
-import { useState } from "react"
+
 
 export default function Projects() {
     
@@ -21,6 +22,15 @@ export default function Projects() {
                         tecnologies={"REACT - REACT ROUTER"}
                         repository={"https://github.com/Striffer/portifolio"}
                         url={"https://striffer.github.io/portifolio/"}
+                    />
+
+                    <Project
+                        src={lawyer}
+                        title={"Assessoria Jurídica - Landing Page"}
+                        comment={"Landing Page desenvolvida para divulgar uma empresa de assessoria jurídica (Projeto criado para estudos). Desenvolvida com Single Page Application (SPA), o que proporciona uma navegação mais fluida."}
+                        tecnologies={"REACT - REACT ROUTER"}
+                        repository={"https://github.com/Striffer/lawyerLp"}
+                        url={"https://striffer.github.io/lawyerLp/"}
                     />
 
                     <Project 
