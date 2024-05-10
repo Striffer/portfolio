@@ -12,10 +12,10 @@ export default function Menu({ right, onMenuToggle }) {
                 <MdClose onClick={onMenuToggle}/>
 
                 <div className={style.menuContainer}>
-                    <Link to={"/portifolio"} onClick={onMenuToggle}><li>Home</li></Link>
-                    <Link to={"/portifolio/about"} onClick={onMenuToggle}><li>Sobre</li></Link>
-                    <Link to={"/portifolio/skills"} onClick={onMenuToggle}><li>Habilidades</li></Link>
-                    <Link to={"/portifolio/projects"} onClick={onMenuToggle}><li>Projetos</li></Link>
+                    <Link to={"/portfolio"} onClick={onMenuToggle}><li>Home</li></Link>
+                    <Link to={"/portfolio/about"} onClick={onMenuToggle}><li>Sobre</li></Link>
+                    <Link to={"/portfolio/skills"} onClick={onMenuToggle}><li>Habilidades</li></Link>
+                    <Link to={"/portfolio/projects"} onClick={onMenuToggle}><li>Projetos</li></Link>
                 </div>
             </ul> 
         </>
