@@ -35,26 +35,8 @@ Este é o meu portfolio. Desenvolvido usando a arquitetura da Single Page Applic
 
 ## Outras imagens ##
 
-<img src="./.github/images/add-coffee-to-cart.png" alt="Portifolio" />
+<img src="./src/assets/screenshot2.png" alt="Portifolio" />
 
-<img src="./.github/images/cart.png" alt="Portifolio" />
+<img src="./src/assets/screenshot3.png" alt="Portifolio" />
 
-<img src="./.github/images/success.png" alt="Portifolio" />
-
-<img src="./.github/images/print.png" alt="Portifolio" />
-
-<img src="./.github/images/orders.png" alt="Portifolio" />
-
-<img src="./.github/images/order-details.png" alt="Portifolio" />
-
-<img src="./.github/images/print-order-details.png" alt="Portifolio" />
-
-## Licença ##
-
-Este projeto está sob a licença do MIT. Para mais detalhes, veja o arquivo [LICENSE](LICENSE).
-
-Desenvolvido por <a href="https://github.com/Striffer" target="_blank">Pedro Lima</a>
-
-&#xa0;
-
-<a href="#top">Voltar ao topo</a>
+<img src="./src/assets/screenshot4.png" alt="Portifolio" />
