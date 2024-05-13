@@ -41,3 +41,11 @@ Este é o meu portfolio. Desenvolvido usando a arquitetura da Single Page Applic
 <img src="./src/assets/screenshot3.png" alt="Portifolio" />
 
 <img src="./src/assets/screenshot4.png" alt="Portifolio" />
+
+## Autor ##
+
+Desenvolvido por <a href="https://github.com/Striffer" target="_blank">Pedro Lima</a>
+
+&#xa0;
+
+<a href="#top">Voltar ao topo</a>
