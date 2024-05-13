@@ -25,11 +25,14 @@ Este é o meu portfolio. Desenvolvido usando a arquitetura da Single Page Applic
 
 4. **Projetos**: Mostra os últimos projetos que desenvolvi, seja para cliente ou apenas demonstrações de habilidades.
 
+
 ## Ferramentas Utilizadas
 
 1. **ReactJS + Vite.js**: Foi utilizado o ReactJS juntamente com o Vite.js para o desenvolvimento rápido e eficiente da interface do usuário;
 
 2. **Ícones do React-Icons**: Foram incorporados ícones do React-Icons para uma experiência visual agradável e intuitiva.
+
+3. **React Simple Typewriter**: Foi usado o react-simple-typewriter na home do projeto para dar um efeito visual.
 
 ---
 
