@@ -8,6 +8,8 @@
 
   <img alt="License" src="https://img.shields.io/github/license/Striffer/portfolio?color=56BEB8">
 
+  <img src="./src/assets/screenshot1.png" alt="Portifolio" />
+
 
 ## Descrição
 
