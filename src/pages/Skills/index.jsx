@@ -4,7 +4,7 @@ import cssImg from "./assets/css.png"
 import javascriptImg from "./assets/javascript.png"
 import sassImg from "./assets/sass.png"
 import reactImg from "./assets/react.png"
-import pythonImg from "./assets/python.png"
+import nextjsImg from "./assets/nextjs.png"
 import SkillsLi from "../../components/SkillsLi"
 
 export default function Skills() {
@@ -48,8 +48,8 @@ export default function Skills() {
 
                 <ul>
                     <SkillsLi 
-                        src={pythonImg}
-                        name="P Y T H O N"
+                        src={nextjsImg}
+                        name="N E X T . J S"
                     />
                 </ul>
             </div>
