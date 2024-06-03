@@ -5,6 +5,7 @@ import javascriptImg from "./assets/javascript.png"
 import sassImg from "./assets/sass.png"
 import reactImg from "./assets/react.png"
 import nextjsImg from "./assets/nextjs.png"
+import nodeImg from "./assets/node.png"
 import SkillsLi from "../../components/SkillsLi"
 
 export default function Skills() {
@@ -40,6 +41,11 @@ export default function Skills() {
                         src={reactImg}
                         name={"R E A C T"}
                     />
+
+                    <SkillsLi 
+                        src={nextjsImg}
+                        name="N E X T . J S"
+                    />
                 </ul>
             </div>
 
@@ -48,8 +54,8 @@ export default function Skills() {
 
                 <ul>
                     <SkillsLi 
-                        src={nextjsImg}
-                        name="N E X T . J S"
+                        src={nodeImg}
+                        name="N O D E . J S"
                     />
                 </ul>
             </div>
